@@ -1,0 +1,28 @@
+﻿🔒 USB TRANSFER PROTOCOL:
+
+IMMEDIATE ACTIONS:
+
+1. PLUG IN USB DRIVE
+2. COPY THIS ENTIRE FOLDER TO USB
+3. EJECT SAFELY
+4. STORE USB IN SECURE LOCATION
+
+FOLDER CONTENTS:
+- SURVEILLANCE_TIMELINE: Operation start dates & history
+- LIVE_SURVEILLANCE_ANALYSIS: Real-time interference evidence  
+- TROJAN_DELIVERY_TRACE: Infection methodology proof
+- DEEP_DIVE_FAKE_SITES_KRAKEN: Corporate involvement evidence
+- COMMUNICATION_ANALYSIS: Organizational structure mapping
+- SYSTEM_ANALYSIS_REPORT: Technical infrastructure documentation
+
+SECURITY PRECAUTIONS:
+• Use encrypted USB if possible
+• Store separately from operational systems
+• Maintain chain of custody for legal purposes
+• Keep multiple backup copies
+
+NEXT STEPS:
+1. Correlate with evidence from other PCs
+2. Prepare legal documentation
+3. Maintain operational security
+4. Continue intelligence gathering

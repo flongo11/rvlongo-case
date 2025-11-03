@@ -1,0 +1,210 @@
+"Name","Id","CPU","WorkingSet","Path"
+"chrome","10796","441.734375","566816768","C:\Program Files\Google\Chrome\Application\chrome.exe"
+"msedge","10192","285.28125","110604288","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","4812","245.6875","83005440","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"chrome","9636","108.53125","102498304","C:\Program Files\Google\Chrome\Application\chrome.exe"
+"chrome","10200","102.578125","363810816","C:\Program Files\Google\Chrome\Application\chrome.exe"
+"explorer","6660","70.5625","148033536","C:\Windows\Explorer.EXE"
+"powershell","10628","48.109375","739401728","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
+"OneDrive","9400","33.015625","104906752","C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"
+"msedge","9852","32.84375","237793280","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"explorer","6580","28.4375","76120064","C:\Windows\explorer.exe"
+"ollama app","3624","21.15625","32161792","C:\Users\User\AppData\Local\Programs\Ollama\ollama app.exe"
+"msedge","1944","20.8125","346972160","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","7308","20.46875","201646080","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"explorer","8844","18.171875","72929280","C:\Windows\explorer.exe"
+"SearchApp","8104","13.90625","90644480","C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe"
+"explorer","12940","13.046875","78389248","C:\Windows\explorer.exe"
+"msedge","2116","11.84375","98226176","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"RuntimeBroker","4964","10.421875","34893824","C:\Windows\System32\RuntimeBroker.exe"
+"msedgewebview2","10652","9.296875","56995840","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\140.0.3485.94\msedgewebview2.exe"
+"svchost","7940","8.46875","22216704","C:\Windows\System32\svchost.exe"
+"sihost","5788","7.59375","26927104","C:\Windows\system32\sihost.exe"
+"conhost","11252","7.234375","16515072","C:\Windows\system32\conhost.exe"
+"explorer","620","7.0625","66134016","C:\Windows\explorer.exe"
+"msedge","8860","6.921875","106201088","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","10184","6.28125","51003392","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"explorer","504","6.25","65396736","C:\Windows\explorer.exe"
+"ctfmon","6376","6.078125","45752320",
+"ShellExperienceHost","10896","5.390625","66453504","C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe"
+"chrome","3948","4.90625","46698496","C:\Program Files\Google\Chrome\Application\chrome.exe"
+"SearchApp","2620","4.859375","54353920","C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe"
+"RuntimeBroker","7596","4.484375","31248384","C:\Windows\System32\RuntimeBroker.exe"
+"TextInputHost","9040","4.25","77484032","C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe"
+"notepad","8412","4.0625","22642688","C:\Windows\system32\NOTEPAD.EXE"
+"msedgewebview2","9908","3.6875","83931136","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\140.0.3485.94\msedgewebview2.exe"
+"RuntimeBroker","8824","3.234375","28016640","C:\Windows\System32\RuntimeBroker.exe"
+"StartMenuExperienceHost","7412","3.046875","62296064","C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe"
+"svchost","5828","2.84375","18583552","C:\Windows\system32\svchost.exe"
+"taskhostw","6024","2.796875","17448960","C:\Windows\system32\taskhostw.exe"
+"msedge","2736","2.53125","89600000","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedgewebview2","10476","2.34375","44150784","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\140.0.3485.94\msedgewebview2.exe"
+"chrome","9688","2.078125","71610368","C:\Program Files\Google\Chrome\Application\chrome.exe"
+"msedge","8612","1.703125","76058624","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"SystemSettings","3236","1.53125","2314240","C:\Windows\ImmersiveControlPanel\SystemSettings.exe"
+"svchost","5884","1.421875","31301632","C:\Windows\system32\svchost.exe"
+"notepad","11496","1.390625","20684800","C:\Windows\system32\NOTEPAD.EXE"
+"OneDrive.Sync.Service","1548","1.1875","14389248","C:\Users\User\AppData\Local\Microsoft\OneDrive\25.164.0824.0003\OneDrive.Sync.Service.exe"
+"notepad","10768","1.109375","18927616","C:\Windows\system32\NOTEPAD.EXE"
+"msedgewebview2","4612","1.03125","34930688","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\140.0.3485.94\msedgewebview2.exe"
+"msedge","6040","1.015625","112889856","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"notepad","12088","1","18620416","C:\Windows\system32\NOTEPAD.EXE"
+"notepad","6868","0.9375","17960960","C:\Windows\system32\NOTEPAD.EXE"
+"msedge","2308","0.859375","47116288","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"notepad","12836","0.78125","19095552","C:\Windows\system32\NOTEPAD.EXE"
+"msedge","8300","0.703125","45604864","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","8496","0.703125","46051328","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"notepad","12916","0.6875","19496960","C:\Windows\system32\NOTEPAD.EXE"
+"RuntimeBroker","11180","0.671875","23580672","C:\Windows\System32\RuntimeBroker.exe"
+"mspaint","5164","0.625","30793728","C:\Windows\system32\mspaint.exe"
+"notepad","4972","0.515625","18923520","C:\Windows\system32\NOTEPAD.EXE"
+"msedge","10216","0.515625","21622784","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"notepad","916","0.515625","18808832","C:\Windows\system32\NOTEPAD.EXE"
+"svchost","6188","0.453125","21872640","C:\Windows\system32\svchost.exe"
+"notepad","216","0.4375","17309696","C:\Windows\system32\NOTEPAD.EXE"
+"ApplicationFrameHost","10640","0.4375","26701824","C:\Windows\system32\ApplicationFrameHost.exe"
+"msedge","4408","0.4375","48099328","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"notepad","11564","0.421875","18640896","C:\Windows\system32\NOTEPAD.EXE"
+"ollama","3020","0.421875","16916480","C:\Users\User\AppData\Local\Programs\Ollama\ollama.exe"
+"taskhostw","1596","0.40625","17715200",
+"notepad","12132","0.40625","17567744","C:\Windows\system32\NOTEPAD.EXE"
+"notepad","12420","0.390625","18116608","C:\Windows\system32\NOTEPAD.EXE"
+"notepad","11240","0.375","18669568","C:\Windows\system32\NOTEPAD.EXE"
+"notepad","2512","0.34375","17666048","C:\Windows\system32\NOTEPAD.EXE"
+"igfxTray","6236","0.34375","10514432","C:\Windows\system32\igfxTray.exe"
+"msedge","9552","0.328125","45690880","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"FileCoAuth","7188","0.296875","25296896","C:\Users\User\AppData\Local\Microsoft\OneDrive\25.164.0824.0003\FileCoAuth.exe"
+"chrome","7452","0.28125","19320832","C:\Program Files\Google\Chrome\Application\chrome.exe"
+"notepad","6048","0.265625","17403904","C:\Windows\system32\NOTEPAD.EXE"
+"RAVCpl64","8420","0.265625","13733888","C:\Program Files\Realtek\Audio\HDA\RAVCpl64.exe"
+"msedge","4428","0.234375","40464384","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","1908","0.234375","27193344","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"notepad","5644","0.234375","18530304","C:\Windows\system32\NOTEPAD.EXE"
+"notepad","12496","0.21875","18698240","C:\Windows\system32\NOTEPAD.EXE"
+"msedgewebview2","5640","0.203125","19353600","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\140.0.3485.94\msedgewebview2.exe"
+"msedge","4404","0.171875","40271872","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"igfxEM","6196","0.171875","12124160","C:\Windows\system32\igfxEM.exe"
+"msedge","948","0.171875","38846464","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"chrome","3996","0.171875","29233152","C:\Program Files\Google\Chrome\Application\chrome.exe"
+"notepad","10764","0.15625","18702336","C:\Windows\system32\NOTEPAD.EXE"
+"notepad","13104","0.140625","18554880","C:\Windows\system32\NOTEPAD.EXE"
+"msedge","7768","0.140625","38027264","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","3408","0.140625","38064128","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"chrome","3036","0.109375","9039872","C:\Program Files\Google\Chrome\Application\chrome.exe"
+"SecurityHealthSystray","8740","0.109375","8826880","C:\Windows\System32\SecurityHealthSystray.exe"
+"dllhost","8268","0.109375","10817536","C:\Windows\system32\DllHost.exe"
+"chrome","1996","0.078125","18550784","C:\Program Files\Google\Chrome\Application\chrome.exe"
+"chrome","3964","0.078125","33677312","C:\Program Files\Google\Chrome\Application\chrome.exe"
+"DSDFunctionKeyCtlService","5172","0.078125","8855552","C:\Windows\System32\DriverStore\FileRepository\dsrvctldrv.inf_amd64_9a8e578dc9a18977\DSDFunctionKeyCtlService.exe"
+"CompPkgSrv","3944","0.078125","8077312","C:\Windows\System32\CompPkgSrv.exe"
+"msedge","13160","0.0625","33132544","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"igfxHK","6212","0.03125","9031680","C:\Windows\system32\igfxHK.exe"
+"msedgewebview2","6244","0.03125","9351168","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\140.0.3485.94\msedgewebview2.exe"
+"conhost","9020","0.03125","7376896","C:\Windows\system32\conhost.exe"
+"UserOOBEBroker","5948","0.03125","9695232","C:\Windows\System32\oobe\UserOOBEBroker.exe"
+"msedge","9960","0.015625","10334208","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"dllhost","7996","0.015625","8507392","C:\Windows\system32\DllHost.exe"
+"taskhostw","5224","0.015625","9076736","C:\Windows\system32\taskhostw.exe"
+"svchost","4484","0","11182080","C:\Windows\system32\svchost.exe"
+"svchost","3868",,"13418496",
+"svchost","2744",,"13676544",
+"svchost","3876",,"6537216",
+"svchost","4100",,"8855552",
+"svchost","4140",,"6115328",
+"svchost","4148",,"9736192",
+"svchost","2648",,"16494592",
+"svchost","3884",,"41148416",
+"svchost","3900",,"42659840",
+"svchost","2988",,"10604544",
+"svchost","3184",,"16691200",
+"svchost","2844",,"9588736",
+"svchost","2852",,"10076160",
+"svchost","2928",,"17682432",
+"svchost","2968",,"7495680",
+"svchost","3200",,"16363520",
+"svchost","3596",,"6320128",
+"svchost","3604",,"7507968",
+"svchost","2836",,"8986624",
+"svchost","3244",,"12271616",
+"svchost","3324",,"10735616",
+"svchost","3520",,"13406208",
+"svchost","4156",,"5480448",
+"svchost","6572",,"15532032",
+"System","4",,"143360",
+"svchost","6280",,"10076160",
+"wininit","588",,"6385664",
+"valWBFPolicyService","4120",,"7798784",
+"svchost","11468",,"9613312",
+"svchost","8876",,"19308544",
+"svchost","7632",,"22892544",
+"svchost","9200",,"8826880",
+"svchost","10524",,"7761920",
+"svchost","10424",,"7397376",
+"svchost","4572",,"8589312",
+"svchost","4596",,"7032832",
+"svchost","4388",,"8654848",
+"svchost","4176",,"20967424",
+"svchost","4252",,"5255168",
+"svchost","5064",,"13217792",
+"WUDFHost","800",,"11423744",
+"winlogon","696",,"10510336",
+"svchost","6148",,"7573504",
+"svchost","5276",,"8077312",
+"svchost","6092",,"15224832",
+"svchost","2556",,"11845632",
+"AggregatorHost","5808",,"8302592",
+"Registry","100",,"32837632",
+"RMService","3972",,"7528448",
+"NisSrv","8540",,"11153408",
+"Memory Compression","1832",,"203620352",
+"MpDefenderCoreService","3484",,"18948096",
+"MsMpEng","4164",,"281559040",
+"spoolsv","3380",,"13320192",
+"sppsvc","12796",,"13496320",
+"svchost","72",,"11730944",
+"smss","356",,"1081344",
+"SearchIndexer","5284",,"50843648",
+"SecurityHealthService","4448",,"15577088",
+"services","740",,"10588160",
+"DSDFunctionKeyCtlService","3916",,"6000640",
+"dwm","1252",,"148242432",
+"dynabookSystemService","4004",,"10031104",
+"dllhost","5688",,"10526720",
+"csrss","496",,"5439488",
+"csrss","596",,"6516736",
+"dasHost","4628",,"4587520",
+"Idle","0",,"8192",
+"igfxCUIService","1964",,"9052160",
+"lsass","748",,"19296256",
+"GensparkCrashHandler64","9480",,"1044480",
+"fontdrvhost","896",,"4608000",
+"fontdrvhost","900",,"8962048",
+"GensparkCrashHandler","9432",,"2138112",
+"svchost","1880",,"9695232",
+"svchost","1948",,"6057984",
+"svchost","2024",,"12312576",
+"svchost","1808",,"8327168",
+"svchost","1640",,"5877760",
+"svchost","1692",,"7503872",
+"svchost","1700",,"15380480",
+"svchost","2376",,"10211328",
+"svchost","2408",,"6565888",
+"svchost","2500",,"21803008",
+"svchost","2332",,"18796544",
+"svchost","2040",,"9400320",
+"svchost","2100",,"7045120",
+"svchost","2120",,"7127040",
+"svchost","1132",,"7843840",
+"svchost","1152",,"6324224",
+"svchost","1164",,"7471104",
+"svchost","1008",,"16011264",
+"svchost","396",,"9797632",
+"svchost","772",,"10133504",
+"svchost","876",,"49868800",
+"svchost","1552",,"7593984",
+"svchost","1572",,"12607488",
+"svchost","1604",,"13864960",
+"svchost","1540",,"12668928",
+"svchost","1200",,"17104896",
+"svchost","1504",,"9588736",
+"svchost","1516",,"9654272",

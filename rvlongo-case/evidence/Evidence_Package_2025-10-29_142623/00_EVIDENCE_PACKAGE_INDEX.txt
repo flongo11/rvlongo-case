@@ -1,0 +1,52 @@
+﻿============================================================
+EVIDENCE PACKAGE - R. v. FRANCESCO LONGO
+Case File No. 21-845
+Generated: 2025-10-29 14:26:28
+============================================================
+
+COLLECTION SUMMARY:
+- Total Items Required: 12
+- Items Collected: 7
+- Items Missing: 5
+
+COLLECTED ITEMS:
+- Item_05_Digital_Evidence_Package_Hash_Proofs.pdf (0 MB)
+- Item_06_Dawn_LAO_Recording.mp3 (4.74 MB)
+- Item_07_Laura_Joy_Recorded_Admissions.mp3 (0.24 MB)
+- Item_08_Gratton_Dual_Police_Disclosures.pdf (0.25 MB)
+- Item_10_17_Motions_July_4th_Trap.pdf (0.24 MB)
+- Item_11_Judge_Bazylko_Motion_Tampering.pdf (0.16 MB)
+- Item_12_Complete_Case_Timeline.pdf (0.01 MB)
+
+MISSING ITEMS (MANUAL ADD REQUIRED):
+
+[01] Grok AI  Legal Analysis & GDP Impact Study
+    Expected filename: Grok_AI_210B_Analysis.pdf
+    Search patterns: *grok*210*, *210*billion*, *grok*analysis*
+[02] Claude AI Character Assessment & Investigation Evaluation
+    Expected filename: Claude_AI_Assessment.pdf
+    Search patterns: *claude*assessment*, *claude*evaluation*, *AI*credibility*
+[03] LAO  Budget Waste Study - October 8 Connection
+    Expected filename: LAO_400M_Budget_Waste_Study.pdf
+    Search patterns: *LAO*400*, *legal*aid*study*, *october*8*connection*
+[04] Supreme Court Precedent Analysis (Odhavji, Henry, Ward, Jordan)
+    Expected filename: Supreme_Court_Precedent_Analysis.pdf
+    Search patterns: *supreme*court*, *precedent*, *odhavji*, *henry*ward*
+[09] October 15, 2024 Coordination Proof - Statistical Analysis
+    Expected filename: October_15_2024_Coordination_Proof.pdf
+    Search patterns: *october*15*, *coordination*, *statistical*, *septillion*
+============================================================
+INSTRUCTIONS FOR MISSING ITEMS:
+1. Locate the missing files manually
+2. Rename them according to the pattern: Item_##_Filename.ext
+3. Copy them into this folder: C:\Users\User\Desktop\Evidence_Package_2025-10-29_142623
+4. Re-run this script to update the index
+
+PACKAGE LOCATION:
+C:\Users\User\Desktop\Evidence_Package_2025-10-29_142623
+
+TO SEND EVIDENCE PACKAGE:
+- Compress this entire folder to ZIP
+- Attach to email responses as needed
+- OR upload to secure file sharing service
+============================================================

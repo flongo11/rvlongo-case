@@ -1,0 +1,404 @@
+﻿Delivered-To: flongo11@gmail.com
+Received: by 2002:a05:6f02:a45a:b0:8b:3847:8aa6 with SMTP id e26csp10044241rcb;
+        Thu, 10 Jul 2025 12:22:26 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IG28dfo0J8LfXCQxX5RzNmBoSMwa3bswrwB+pBERq2Avrx5xQx1exSUbz6fp1EtIXri575K
+X-Received: by 2002:a05:6e02:1aa3:b0:3dd:d18a:2d71 with SMTP id e9e14a558f8ab-3e253253739mr8883165ab.2.1752175345842;
+        Thu, 10 Jul 2025 12:22:25 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1752175345; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=AD5cKKWs3V0lYKw6iz6C91/fXOkkMNeijG4pE8Thh/JZ5Y55plckskctv5uZu9xzBh
+         I4VW6h0ZG3uqOV2ngH2dp2FL4vNlqV+hhXL8kD5dh4JsFHZiBcFysYJhE41rlt+ptzxk
+         OG8FGvadHFRd9kFNgz2ymZupu62kD64J7gHu54UDEcdkYHrMzIM4fHpW3TdU8Qdu53vA
+         dGcCNjqpo0xIc+uDezHpdBV4VOalDHzTCCFdWSRHdzA3EIcZp3v83n/HReugbirU6fjS
+         N5PpnTYHrpgN7gd+tQaK7fqD41rqqeQ5KTUxWz4XGZrML1uITV+PXsWTFnf9YrVUBrUd
+         w9BA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:msip_labels:content-language:accept-language
+         :message-id:date:thread-index:thread-topic:subject:to:from
+         :dkim-signature;
+        bh=kSjtntsqTvkL9/blBbdf/5vPrpcq7ANWLmNn2BMhTJo=;
+        fh=lPiMY4J24C6n59I/xrdycEFWXjk8IKmkTfyViVG4kas=;
+        b=K79WQq2EANCWVz2dPPMxisgx7VFZsboCfnKLMMKCFYwnB7fsr6NsF/cp38q7nOLGwF
+         Y7v/UjQ28n2XvrCaEoi/zS91ntKWnnGHLxxjAbYk/9J19wLUspnF8/n97AzLn4mW1kLd
+         CwsYt7se0kWi8wl2+sLx5IF/okqTbWfdFrYjh1KQDiM4SWft1Fy1wSLSWqP4WyUhbZgE
+         D87aCvAHUkbfKVF7atHwJ5GgCjfQGXzTpQ9uFPKRMS3HSSxkJy26Gv51C166jqAfvgP/
+         jzTNux/9VRSygfI0xcB1qg1mdbirBGB4kVrGZOTCJ4+UrgGMA9l2BsWUJzMfdsxw/Zcb
+         lf8A==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@ontario.ca header.s=selector1 header.b=EjT1NTfx;
+       arc=pass (i=1 spf=pass spfdomain=ontario.ca dkim=pass dkdomain=ontario.ca dmarc=pass fromdomain=ontario.ca);
+       spf=pass (google.com: domain of virtualcrownwindsor@ontario.ca designates 2a01:111:f403:241c::630 as permitted sender) smtp.mailfrom=VirtualCrownWindsor@ontario.ca;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=ontario.ca
+Return-Path: <VirtualCrownWindsor@ontario.ca>
+Received: from CAN01-YT3-obe.outbound.protection.outlook.com (mail-yt3can01on20630.outbound.protection.outlook.com. [2a01:111:f403:241c::630])
+        by mx.google.com with ESMTPS id e9e14a558f8ab-3e246231e46si25952225ab.88.2025.07.10.12.22.25
+        for <flongo11@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 10 Jul 2025 12:22:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of virtualcrownwindsor@ontario.ca designates 2a01:111:f403:241c::630 as permitted sender) client-ip=2a01:111:f403:241c::630;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@ontario.ca header.s=selector1 header.b=EjT1NTfx;
+       arc=pass (i=1 spf=pass spfdomain=ontario.ca dkim=pass dkdomain=ontario.ca dmarc=pass fromdomain=ontario.ca);
+       spf=pass (google.com: domain of virtualcrownwindsor@ontario.ca designates 2a01:111:f403:241c::630 as permitted sender) smtp.mailfrom=VirtualCrownWindsor@ontario.ca;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=ontario.ca
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=SrvBxeMcs5n7Zor+2+OuVMZofWUnOfKJsFI+GIwrV+l7+FhP/rXhcX18ghyI6OUZpVRIHAOKFbIL7VYfqJbDh0kilDFCmfjBPvBho0tf3K1mwI5mcMSLKD4tqub+o0Y+xS6zj0q9O6TtVIQKrHDujXTPNJJHZSHs2AE/kpSxLFK0y+2EZQQZTqBN6yhSBO7kGKyT1RkDiAfzjjQU8Qyzapm9yr8oC+YUaHQyJlR8hMvk7T3y0/6OWr6YlRVCyDouhsTHak1sTYXX2jkxSLvtMLE+5ZpBfUU1U5RhYvxxH/lt/SAEx/0cmPCBSK7qUAV9vS3lx94h05S9wE3x3OFhgw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=kSjtntsqTvkL9/blBbdf/5vPrpcq7ANWLmNn2BMhTJo=;
+ b=xeuMHvN5McdkfVjk0YEnZD6mEYnLWLhE0iA8SPV7WqpRFlJb/COIw0nnHB0L4Ng4HEUQi3E7gfFJRJW2BTcenJTktUof8QTsxuCpM2FXYFfrzhY/VDEzdeXLvE4FEnvWFoWl5IR2uaWw24W/vrdKEap7R603h5buRW4o29DzskkLgZ/9ccXOv16KWnrWU+/V5oAUt3OjYsKEIskeVO0ztVt94jgSNdSzJ/szawe9mC1k6L3z8/1qV9FoRPmeY9etuTcC+A4KlDHDKPrBa6xwDcmmouv82E/OolPtJngNSNeHVlcvg2KiUAYSgMMRqZxdejodi3k+pRrIXCQurbP+JA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=ontario.ca; dmarc=pass action=none header.from=ontario.ca;
+ dkim=pass header.d=ontario.ca; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ontario.ca;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=kSjtntsqTvkL9/blBbdf/5vPrpcq7ANWLmNn2BMhTJo=;
+ b=EjT1NTfxb77LQRFt7JYPiHP5OlqpeylzUFIFBumMTvIkvISqvd3aYPaVj+q4aTWVwTFoweZl3BpomxGJlf4yviZA2xQKy96W7+RC5z8gfy/OEiKAk1Qz+35n3KSb5Qox6WNiPyM3poBlWJGoPGKy4Hjmd5mI9DfiAac2+N3pHD4=
+Received: from YT1PR01MB4121.CANPRD01.PROD.OUTLOOK.COM (2603:10b6:b01:2a::20)
+ by YQBPR01MB10755.CANPRD01.PROD.OUTLOOK.COM (2603:10b6:c01:75::22) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8901.29; Thu, 10 Jul
+ 2025 19:22:24 +0000
+Received: from YT1PR01MB4121.CANPRD01.PROD.OUTLOOK.COM
+ ([fe80::3d05:e92b:8694:a6ec]) by YT1PR01MB4121.CANPRD01.PROD.OUTLOOK.COM
+ ([fe80::3d05:e92b:8694:a6ec%6]) with mapi id 15.20.8901.028; Thu, 10 Jul 2025
+ 19:22:24 +0000
+From: "Virtual Crown Windsor (MAG)" <VirtualCrownWindsor@ontario.ca>
+To: "flongo11@gmail.com" <flongo11@gmail.com>
+Subject: R v Francesco LONGO 1012001 - Disclosure
+Thread-Topic: R v Francesco LONGO 1012001 - Disclosure
+Thread-Index: Advxm+uT6meNADPgT06dgsDyfb9XYg==
+Date: Thu, 10 Jul 2025 19:22:24 +0000
+Message-ID:
+ <YT1PR01MB4121D21BA092408FCA561D04F148A@YT1PR01MB4121.CANPRD01.PROD.OUTLOOK.COM>
+Accept-Language: en-CA, en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+msip_labels:
+ MSIP_Label_034a106e-6316-442c-ad35-738afd673d2b_ActionId=e2043323-4e6b-42ac-bb33-58328302ae4e;MSIP_Label_034a106e-6316-442c-ad35-738afd673d2b_ContentBits=0;MSIP_Label_034a106e-6316-442c-ad35-738afd673d2b_Enabled=true;MSIP_Label_034a106e-6316-442c-ad35-738afd673d2b_Method=Standard;MSIP_Label_034a106e-6316-442c-ad35-738afd673d2b_Name=034a106e-6316-442c-ad35-738afd673d2b;MSIP_Label_034a106e-6316-442c-ad35-738afd673d2b_SetDate=2025-07-10T13:08:27Z;MSIP_Label_034a106e-6316-442c-ad35-738afd673d2b_SiteId=cddc1229-ac2a-4b97-b78a-0e5cacb5865c;
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=ontario.ca;
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: YT1PR01MB4121:EE_|YQBPR01MB10755:EE_
+x-ms-office365-filtering-correlation-id: d85f0cb5-49a9-45b3-f054-08ddbfe71960
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam:
+ BCL:0;ARA:13230040|366016|376014|1800799024|38070700018|4053099003|8096899003;
+x-microsoft-antispam-message-info:
+ =?us-ascii?Q?/d13UooOLqdi7JHOA9S7tz4/ZGhoaoSs9cmFXeyFeGhkdKz0vUAJesBPe0vg?=
+ =?us-ascii?Q?ZvdyFG2InLUKHAWoXdh8SsNmnZ6yeQFu+NWSio2fOq+r+rMPH5QLPqlrCMHB?=
+ =?us-ascii?Q?7xe+FfsTPOAp5qoZp/qHwQ9pQ/EP3R97AIU61iGSE7iswQ48Gz85i7U7Fu8M?=
+ =?us-ascii?Q?OIcSoJp6vy6c1JN+HKmUC7xMgw5cSNGzTv2ZHEFdBI7+tGP2ETEIWwJO9CZQ?=
+ =?us-ascii?Q?PS8R2+ntknWE1WRX0NuStegVzRd5vCmjlOi5n08WGkVbKjt0noeDQJPoQMLQ?=
+ =?us-ascii?Q?8OtKVpD/eGFfQuLB2sddKs/0gE7mAx9cWHLvEPBOzVsYpZr1lz+M0CHoNZh3?=
+ =?us-ascii?Q?2UMltX5KXo3XjunLhL3ThmO1E9ahLlCvUaGxknRXRzBJORXnRKeLAljmBc+7?=
+ =?us-ascii?Q?YoVRBt1+8jz/H1z7/K7Lmp87MXROHy4hpJQNT7To0gGKOti9adRbTcsnAnGh?=
+ =?us-ascii?Q?2QlBjEFNKrvYB5FoeKcDaXGuypRY/czzq934ko9dqvMdtZD9OrkugRHu/Znm?=
+ =?us-ascii?Q?/xn/SrYbzaP2XikHQZDpfNizZ+e4CgnbNEBdL9bFum6qB7iygcPMqnUEc/y3?=
+ =?us-ascii?Q?9UjIy4BluPQdOcxYLm4+WZ7CVm9bLGyWiGW040flHOx0kCNkx1i5LTpHZgJD?=
+ =?us-ascii?Q?TyJWtSosFKwkcUNtnKad6GcNKpzdq77G7tsgD4WEjqDgmfPPHD+XeiN9tTks?=
+ =?us-ascii?Q?YZAb+Qp2x/wX3YXHcGcphbC+/OqoU57Q5+QmAmsxAaiPOV++Qpg23ItdjmEB?=
+ =?us-ascii?Q?DBkD7OZvVc/X1G4xsuI0i7n3CYURNM1AnfSWxkqLg0iozJ8bvqJvQ5L0vORa?=
+ =?us-ascii?Q?xcfOeTAJEbO+/aCeAxVd3DwHVOlL9EzhHDC/atAY/H5TWPFQL5jymMhWsx41?=
+ =?us-ascii?Q?l3Ap610d4b7P919s5eei4nCA7Dhc6pMatV9cRkzDU6jGg4WPx4ycxLYSp+lZ?=
+ =?us-ascii?Q?pOWxosA1wuIgqHB/Hl5SFhS3d/TYcfchwNRw4CtW75qwu1btueJ8T90c3/L6?=
+ =?us-ascii?Q?bhNhQ9dQc3MDeKcCtZqbM/tECkN0Jm0ahN1/a2v+WFgSH5OZXd/CUertN1SR?=
+ =?us-ascii?Q?E8KwIYiwoZDeso++YMRWxmSzfHlWpnMBCQqY6FpFiA1CV37Vg5HFD8dS8ZFM?=
+ =?us-ascii?Q?Z3dM6FO5C1tHURTvDA6pelGmJZFw9oLYSm0W50ihOYd5JIoITqz0oQHJiJvS?=
+ =?us-ascii?Q?zYt7LI1p91PS4rJVzgZgBtOeHKHFmKfC1Lg6knMHCeuNMZDrQHOx1NUj9aQa?=
+ =?us-ascii?Q?frbGf1B4AVnnHeTTVhw4F7940KxHTKCzYym74jhN2RI4LJNIFFVPqvCwrW5t?=
+ =?us-ascii?Q?zyHILPoqEMDMOV5hU1lCG69ZILk4aePzeIqKJujqrNsN/MqHHvGhENwK7Jol?=
+ =?us-ascii?Q?mE4mR61zB6G7l8gN8xLDPcL5q28JjBwa+vdDma7lg6hKNRsUbZqUzCZ2sq/X?=
+ =?us-ascii?Q?WuesUgxx5Tw2Sx0SQZ7O2dJfdLvIS4et8HkSyI0R7DySTVMKw4BefzbNK4WM?=
+ =?us-ascii?Q?sqa22SDzdLb86jY=3D?=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:YT1PR01MB4121.CANPRD01.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230040)(366016)(376014)(1800799024)(38070700018)(4053099003)(8096899003);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?hC0USwS6rre26CZJmCdlGrz6DZhuHMAgBXE9OHMhXvEt6mcAHiRPbqyRmKQ3?=
+ =?us-ascii?Q?CTMvq0svY3fHVmj1qBWyCGRzq+K1+V//PdzyX53I0GvRc3Y+7Xqgq9++71nf?=
+ =?us-ascii?Q?sPxIlO9LpzpWE+mYrtgANKLiXUrkcuxLQ7WegQvL2i2LDRk/Z2I2o8pQHXZT?=
+ =?us-ascii?Q?SuXxoufoKMhDMpyFcCl5rEzRQb2Zt9EFaiZJU5Sw6UAIznJvNGVX6jZUJq87?=
+ =?us-ascii?Q?NLeV/6mO3pXdCr6Ve45b9qzU5eFQobm0ztGErDknywp+s7ZUI6YiJiQLZcag?=
+ =?us-ascii?Q?bb7pTe2HgiRYZTwECjm6eS/FYOi0Ku/Q5l/xla1eDwuLCMcN6ralXGbrBP7W?=
+ =?us-ascii?Q?iM80YdOmUtAWgzyvlbXANh4izW4fWxmGqPvq7Vpq4ZEl+FtAGFL3C2yVsOTR?=
+ =?us-ascii?Q?SXvVMB6x9VyBVzl+XyS5gaXv76gK93ZzbpvENZojKOJHXbq0Wi9Icvgm2bEd?=
+ =?us-ascii?Q?1xR98bmCiZ9ovc3ZYG00629KCeHfKxDtL9ZsMupDTuuQagvZW65XUC26ijgO?=
+ =?us-ascii?Q?DxxE06g2HTKn/5i+dTrc0Zsq/Er4Hxw02n6xaYGHOS2vwyLKRIMNjlEiO/Ky?=
+ =?us-ascii?Q?1JmEuojlGswB7RS3TiNO/S/aIRWf26NfrGcAZfCb+kYeN1AJbLmWjVwSuW9+?=
+ =?us-ascii?Q?EPAsy1WJPAvrPFlDx4oFW7X1mWfWI6eg6anOrK6KsZyOo6G/aQ+XQq7Jt5K9?=
+ =?us-ascii?Q?DckI3hLLPgFkRvqnnAHR9Wz6Jia6+1bd/WQbLM8PS5jPIOudcVXua2++NiVJ?=
+ =?us-ascii?Q?0F/HsCaN4w7+B2X35KWgrtTAIOYtgrp7/5AhmPnuMr1bqT6fvQuXxMy4oNBV?=
+ =?us-ascii?Q?kaxnlg2nszsuoVIp6Ueg7l36VP3/9sH/OwyA/1mDxSBm0U2X3WLPykfpv2N0?=
+ =?us-ascii?Q?nuBNCsTqlxut8sRabobYt62DvBu0a1StYBr5d+HaU3Iqfp9+4kLOPU6F673e?=
+ =?us-ascii?Q?ovA9CIjN1CwYmSx/tzIWcSwt9Mbd4YrL2fPhp2V2Pa4iyPJYVLD3xFbewaK+?=
+ =?us-ascii?Q?kb6mJsr4/aIg5T896htMpCq8i/kQ8T4gAzrsTFwqXqoWzECtyqSOxpR+mCMp?=
+ =?us-ascii?Q?hw+YnPBkdVOJ4xMCfzZZ401aQrSxaxIg8XQjDceEvDxhJReCM64s8NGfPeMS?=
+ =?us-ascii?Q?+/JO418Gd4PwHGEBpdzFtKJrA+7GzQpuFC9joUgY9N2NbpWE6N+I53qaKT//?=
+ =?us-ascii?Q?1+vc71Sjlj5ap+dCqmi90D1ZqMsy2PuL4IZ6G+xQWXQENdS6HHSIRpRDeDKe?=
+ =?us-ascii?Q?To81MIoGadmoGM90EcI7p4RveH1/87G4X8g3uRGJHQT4FsBErgWk6g2DwiQO?=
+ =?us-ascii?Q?duN0Tb4wmcQyFkbjvj3pMVySNURfx7+M+4ZAaPU9DO1nrFFGaPGZ4gGihkHN?=
+ =?us-ascii?Q?ieWxstXgD+gVdGSL3Nh/YHzgEkiHOb31+Ow6ksakOmPrSAqQBVDsY0bODBtn?=
+ =?us-ascii?Q?sYTAnl/9sS3iScj8xYH8NwRC/AINlqK96KCmTsWIPT9xgNqRc6Ry+vF2pLMt?=
+ =?us-ascii?Q?UphLoPobnP+LVjGLXo4qrskSzf37q4OMfi5z4u7rfzT6u5WsGzBGfywAdJ9V?=
+ =?us-ascii?Q?IQpmqiMNM3SuqqqGC9YwKpTDiyyJGWdsinZbBHsoQ9Vqz61StOZzDekxvQSN?=
+ =?us-ascii?Q?hw=3D=3D?=
+Content-Type: multipart/related;
+	boundary="_004_YT1PR01MB4121D21BA092408FCA561D04F148AYT1PR01MB4121CANP_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: ontario.ca
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: YT1PR01MB4121.CANPRD01.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: d85f0cb5-49a9-45b3-f054-08ddbfe71960
+X-MS-Exchange-CrossTenant-originalarrivaltime: 10 Jul 2025 19:22:24.0334
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: cddc1229-ac2a-4b97-b78a-0e5cacb5865c
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: xM/XXYM/4zrEksfq9tYcWQshFMxxTeIuuizaOUE/LxpLWUVO/nZdyAuSTfoyCZspeudgl4+ZMh2SFoJvEMj4s/0qq1F1Im4t9t0ZPG3mmvg=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: YQBPR01MB10755
+
+--_004_YT1PR01MB4121D21BA092408FCA561D04F148AYT1PR01MB4121CANP_
+Content-Type: multipart/alternative;
+	boundary="_000_YT1PR01MB4121D21BA092408FCA561D04F148AYT1PR01MB4121CANP_"
+
+--_000_YT1PR01MB4121D21BA092408FCA561D04F148AYT1PR01MB4121CANP_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Good afternoon,
+
+Please be advised that the 911 Call for this case is now ready to be viewed=
+ at our office. Please call us at 519-253-1104 to book an appointment in or=
+der to view the media. We are open Monday - Friday from 8:45am-4:45pm.
+
+
+Thank you,
+
+Windsor-Essex Crown Attorney's Office
+Ministry of the Attorney General  |  Ontario Public Service
+519-253-1104  |  VirtualCrownWindsor@ontario.ca<mailto:VirtualCrownWindsor@=
+ontario.ca>
+
+5th Floor, Ontario Court of Justice
+200 Chatham St. E.
+Windsor, ON  N9A 2W3
+[cid:image001.png@01DBF17A.362BB5E0]
+/ab
+
+
+
+--_000_YT1PR01MB4121D21BA092408FCA561D04F148AYT1PR01MB4121CANP_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Raleway;
+	panose-1:0 0 5 0 0 0 0 0 0 0;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle18
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;
+	mso-ligatures:none;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-CA" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><a name=3D"OLE_LINK18"></a><a name=3D"OLE_LINK17"><s=
+pan style=3D"mso-bookmark:OLE_LINK18">Good afternoon,<o:p></o:p></span></a>=
+</p>
+<p class=3D"MsoNormal"><span style=3D"mso-bookmark:OLE_LINK17"><span style=
+=3D"mso-bookmark:OLE_LINK18"><o:p>&nbsp;</o:p></span></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-bookmark:OLE_LINK17"><span style=
+=3D"mso-bookmark:OLE_LINK18">Please be advised that the 911 Call for this c=
+ase is now ready to be viewed at our office. Please call us at 519-253-1104=
+ to book an appointment in order to view
+ the media. We are open Monday - Friday from 8:45am-4:45pm.<o:p></o:p></spa=
+n></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-bookmark:OLE_LINK17"><span style=
+=3D"mso-bookmark:OLE_LINK18"><o:p>&nbsp;</o:p></span></span></p>
+<span style=3D"mso-bookmark:OLE_LINK18"></span><span style=3D"mso-bookmark:=
+OLE_LINK17"></span>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Raleway;mso-fareast-la=
+nguage:EN-CA">Thank you,<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Raleway;mso-fareast-la=
+nguage:EN-CA"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Raleway;mso-fareast-la=
+nguage:EN-CA">Windsor-Essex Crown Attorney&#8217;s Office<o:p></o:p></span>=
+</b></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:Raleway;mso-fareast-langu=
+age:EN-CA">Ministry of the Attorney General&nbsp; |&nbsp; Ontario Public Se=
+rvice<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:Raleway;mso-fareast-langu=
+age:EN-CA">519-253-1104&nbsp; |&nbsp;
+</span><a href=3D"mailto:VirtualCrownWindsor@ontario.ca"><span style=3D"fon=
+t-family:Raleway;color:#0563C1;mso-fareast-language:EN-CA">VirtualCrownWind=
+sor@ontario.ca</span></a><span style=3D"mso-fareast-language:EN-CA"><o:p></=
+o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:EN-CA"><o:p>&nbs=
+p;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-right:.3pt"><span style=3D"font-fami=
+ly:Raleway;mso-fareast-language:EN-CA">5<sup>th</sup> Floor, Ontario Court =
+of Justice
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-right:.3pt"><span style=3D"font-fami=
+ly:Raleway;mso-fareast-language:EN-CA">200 Chatham St. E.<o:p></o:p></span>=
+</p>
+<p class=3D"MsoNormal" style=3D"margin-right:.3pt"><span style=3D"font-fami=
+ly:Raleway;mso-fareast-language:EN-CA">Windsor, ON&nbsp; N9A 2W3<o:p></o:p>=
+</span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-ligatures:none;mso-fareast-langua=
+ge:EN-CA"><img border=3D"0" width=3D"113" height=3D"51" style=3D"width:1.17=
+7in;height:.5312in" id=3D"Picture_x0020_2" src=3D"cid:image001.png@01DBF17A=
+.362BB5E0"></span><span style=3D"mso-fareast-language:EN-CA"><o:p></o:p></s=
+pan></p>
+<p class=3D"MsoNormal"><b><i><span style=3D"font-size:12.0pt;mso-fareast-la=
+nguage:EN-CA">/ab<o:p></o:p></span></i></b></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_YT1PR01MB4121D21BA092408FCA561D04F148AYT1PR01MB4121CANP_--
+
+--_004_YT1PR01MB4121D21BA092408FCA561D04F148AYT1PR01MB4121CANP_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=4182;
+	creation-date="Thu, 10 Jul 2025 19:22:23 GMT";
+	modification-date="Thu, 10 Jul 2025 19:22:23 GMT"
+Content-ID: <image001.png@01DBF17A.362BB5E0>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAIoAAAA+CAYAAAD03IMHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA3BpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2
+MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDplZTY5NGFhMi1iNjc4LTRmOWItOTVlNC01YmEw
+NzQzOGY3NjciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NEI2MkUwNDM3QjREMTFFOUIwMUFB
+RkQ3OEVENjkyNkIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NEI2MkUwNDI3QjREMTFFOUIw
+MUFBRkQ3OEVENjkyNkIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkg
+KE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlp
+ZDo2MjU5NTlCMTUzQzkxMUU5OTZBRkM0RTc5RjJEMDA0NSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1w
+LmRpZDo2MjU5NTlCMjUzQzkxMUU5OTZBRkM0RTc5RjJEMDA0NSIvPiA8L3JkZjpEZXNjcmlwdGlv
+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
+AJv1EwI3Yg+5AAAAAElFTkSuQmCC
+
+--_004_YT1PR01MB4121D21BA092408FCA561D04F148AYT1PR01MB4121CANP_--
+

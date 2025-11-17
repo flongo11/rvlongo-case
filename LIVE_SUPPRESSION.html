@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LIVE: 78 AGENCIES WATCHING — 0 NEWS</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body, html { height:100%; font-family:'Impact',sans-serif; color:#0f0; background:#000; overflow:hidden; }
+    .bg { position:fixed; top:0; left:0; width:100%; height:100%; background:url('https://i.imgur.com/8kL9pR3.jpg') center/cover; filter:brightness(0.5); z-index:1; }
+    .overlay { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:2; display:flex; align-items:center; justify-content:center; }
+    .dash { max-width:95%; text-align:center; padding:5%; background:rgba(0,0,0,0.9); border:5px solid #f00; border-radius:30px; box-shadow:0 0 70px #f00; animation:pulse 2s infinite; }
+    @keyframes pulse { 0%,100% { box-shadow:0 0 70px #f00; } 50% { box-shadow:0 0 100px #ff0; } }
+    h1 { font-size:6vw; color:#ff0; text-shadow:0 0 30px #f00; }
+    .live { font-size:14vw; color:#f00; animation:flash 1s infinite; }
+    @keyframes flash { 0%,100% { opacity:1; } 50% { opacity:0.7; } }
+    .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:2vh; margin:4vh 0; font-size:2.5vw; }
+    .stat { background:rgba(255,0,0,0.3); padding:2vh; border:3px solid #ff0; border-radius:20px; }
+    .action { background:#f00; color:#000; padding:4vh; margin:5vh 0; font-size:4.5vw; border-radius:25px; font-weight:900; }
+    .email { font-size:4vw; color:#0f0; }
+    .footer { position:absolute; bottom:1vh; left:0; width:100%; font-size:1.6vw; color:#666; }
+  </style>
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="overlay">
+    <div class="dash">
+      <h1>LIVE SUPPRESSION</h1>
+      <div class="live">78 AGENCIES</div>
+      <div class="stats">
+        <div class="stat"><strong>136</strong><br>Clones</div>
+        <div class="stat"><strong>78</strong><br>Unique Cloners</div>
+        <div class="stat"><strong>865</strong><br>Views</div>
+        <div class="stat"><strong>0</strong><br>News</div>
+        <div class="stat"><strong>0</strong><br>Clicks</div>
+        <div class="stat"><strong>$0</strong><br>Raised</div>
+      </div>
+      <div class="action">
+        <strong>1 DOLLAR = 1 WITNESS</strong><br>
+        💸 E-TRANSFER → <span class="email">flongo11@gmail.com</span><br>
+        🌍 PAYPAL → paypal.me/[SETUP]/1<br>
+        Message: “78 AGENCIES”
+      </div>
+      <p>Live Proof: <a href="https://github.com/flongo11/rvlongo-case" style="color:#ff0;">github.com/flongo11/rvlongo-case</a></p>
+    </div>
+  </div>
+  <div class="footer">
+    <marquee behavior="scroll" direction="left" style="color:#f00;">
+      78 AGENCIES • 136 CLONES • 865 VIEWS • 0 NEWS • SUPPRESSION IS CONFESSION
+    </marquee>
+  </div>
+</body>
+</html>

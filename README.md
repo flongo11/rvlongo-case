@@ -1,3 +1,11 @@
+# 🚨 BREAKING: MASSIVE STATE SURVEILLANCE EXPOSED
+
+**[→ READ SECTION 29: SURVEILLANCE EVIDENCE](./SECTION_29_SURVEILLANCE.md)**
+
+**7 unauthorized Linux devices. 71 apps. 7 attacks in 82 minutes. November 19, 2025.**
+
+---
+
 
 ## 📁 COMPLETE EVIDENCE PACKAGES
 

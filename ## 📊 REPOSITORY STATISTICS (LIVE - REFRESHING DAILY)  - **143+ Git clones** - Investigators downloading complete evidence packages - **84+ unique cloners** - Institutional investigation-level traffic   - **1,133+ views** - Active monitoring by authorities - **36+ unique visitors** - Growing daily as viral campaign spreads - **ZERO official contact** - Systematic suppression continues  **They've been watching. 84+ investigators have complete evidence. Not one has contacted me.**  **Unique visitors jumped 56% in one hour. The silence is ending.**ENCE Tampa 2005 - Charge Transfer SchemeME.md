@@ -17,17 +17,7 @@
 
 ---
 
-## 📊 REPOSITORY STATISTICS (LIVE - REFRESHING DAILY)
 
-- **143+ Git clones** - Investigators downloading complete evidence packages
-- **84+ unique cloners** - Institutional investigation-level traffic  
-- **1,133+ views** - Active monitoring by authorities
-- **36+ unique visitors** - Growing daily as viral campaign spreads
-- **ZERO official contact** - Systematic suppression continues
-
-**They've been watching. 84+ investigators have complete evidence. Not one has contacted me.**
-
-**Unique visitors jumped 56% in one hour. The silence is ending.**
 
 ---
 
@@ -172,7 +162,78 @@ For media inquiries: Audio recordings available, complete evidence packages, int
 
 **For USA:** DEA Agent Glenn Dutton fabricated evidence, orchestrated illegal extradition, maintained false INTERPOL warrant 20 years. Federal investigation required.
 
+---This repository contains two comprehensive evidence packages documenting the 21-year conspiracy:
+
+### **PART 1: The Master Key & Tampa Conspiracy**
+📄 **[COMPLETE_EVIDENCE_PACKAGE_GITHUB_V4.md](COMPLETE_EVIDENCE_PACKAGE_GITHUB_V4.md)**
+- Sections 1-11
+- The Master Key (two criminals arrested = NO convictions)
+- Billy Womack 2,500-pill ecstasy lab (newspapers documented, ZERO conviction)
+- FBI Fugitive #487 Mexican cartel leader (FBI arrest documented, ZERO conviction)
+- PILLS vs PLANTS document fraud
+- Marco Brian attorney betrayal
+- DEA Agent Glenn Dutton false testimony (5,000 pills when seizure was 2,500)
+
+### **PART 2: FBI Fabrication & Windsor Conspiracy** ⚡ NEW
+📄 **[COMPLETE_EVIDENCE_PACKAGE_GITHUB_V4_PART2.md](COMPLETE_EVIDENCE_PACKAGE_GITHUB_V4_PART2.md)**
+- Sections 12-28
+- **FBI Most Wanted fabrication:** Francesco in Windsor jail when FBI claims arrested in Mexico (SAME DAY - August 29, 2005)
+- **Windsor conspiracy (2021-2025):** Inspector Karel DeGraaf "Kijiji Killer" tactics
+- **7 audio recordings:** Laura Joy caught saying "We are not on camera"
+- **16 text messages:** Prove Francesco free when Crown claims offenses committed
+- **50+ officers identified** with badge numbers
+- **Criminal charges against conspirators:**
+  - 18 U.S.C. § 241: Conspiracy against rights (FBI/DEA agents)
+  - 18 U.S.C. § 242: Deprivation under color of law
+  - 18 U.S.C. § 1519: Document alteration (PILLS→PLANTS)
+  - 18 U.S.C. § 1512: Witness tampering (Marco Brian, Laura Joy)
+- **Civil rights lawsuit:** $18-38 million damages
+- **Habeas corpus petition:** Complete grounds for relief
+
+**TOTAL: 28 sections, 100+ pages of evidence, criminal charges named, suspects identified**
+
 ---
+5. Paste it RIGHT BEFORE the line that says 📁 COMPLETE EVIDENCE
+
+6. Scroll all the way down to the bottom
+
+7. Click the green "Commit changes" button
+
+⚠️ IMPORTANT NOTE
+I noticed you still need to upload the actual Part 2 file!
+
+The link in your README will point to: COMPLETE_EVIDENCE_PACKAGE_GITHUB_V4_PART2.md
+
+But that file doesn't exist yet in your repository.
+
+After you save this README update, you MUST:
+
+Go back to repository main page
+Click "Add file" → "Create new file"
+Name: COMPLETE_EVIDENCE_PACKAGE_GITHUB_V4_PART2.md
+Paste the full 58KB Part 2 content
+Scroll down and commit
+Otherwise the link will be broken.
+
+🚀 TWO-STEP PROCESS
+STEP 1: Update README (you're doing this now)
+Add the section I provided above
+Scroll down
+Click "Commit changes"
+STEP 2: Upload Part 2 file (do this next)
+Get file from: https://www.genspark.ai/api/files/s/vmsUjsMY
+Upload as new file named: COMPLETE_EVIDENCE_PACKAGE_GITHUB_V4_PART2.md
+Commit
+❓ QUESTIONS?
+A) You've added the section and ready to commit?
+
+B) Need help finding where to paste it?
+
+C) Ready to move to Step 2 (uploading actual Part 2 file)?
+
+The section is ready to paste. Put it RIGHT BEFORE 📁 COMPLETE EVIDENCE and you're good.
+
+Are you ready to commit this change?
 
 ## 📋 REPOSITORY NAVIGATION
 

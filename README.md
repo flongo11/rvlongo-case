@@ -1,3 +1,18 @@
+## 🔥 **FEATURED DOCUMENT**
+
+### **[SECTION 30: THE GREAT HOUDINI OR GREAT WHO DID IT](SECTION_30_THE_GREAT_HOUDINI.md)**
+**How Glenn Dutton Made One Man Appear in Three Places Simultaneously**
+
+Physical impossibility as proof of 20-year conspiracy:
+- August 29, 2005: Windsor jail + Tampa courthouse + Mexico arrest = IMPOSSIBLE
+- Glenn Dutton QUOTED in Lakeland Ledger newspaper (May 20, 2004)
+- Billy Womack: Elaborate ecstasy lab, multiple arrests, ZERO convictions
+- Francesco Longo: No lab, no evidence, 78 months federal prison
+- November 2025: Active surveillance proves consciousness of guilt
+
+**THE GREAT WHO DID IT:** Two criminals walk free. One innocent man serves their time.
+
+**109 organizations are watching.**
 # 🚨 BREAKING: MASSIVE STATE SURVEILLANCE EXPOSED
 
 **[→ READ SECTION 29: SURVEILLANCE EVIDENCE](./SECTION_29_SURVEILLANCE.md)**

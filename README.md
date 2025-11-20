@@ -12,7 +12,7 @@
 ### **[→ READ: EMERGENCY OCTOBER 23 TRAP](EMERGENCY_OCTOBER_23_TRAP_ACTIVE_MANHUNT.md)**
 
 **What They Did:**
-- **July 7-8, 2025:** Stole Francesco's trial date for Ken Price (Windsor police) secret sexual assault trial
+- **July 7-9, 2025:** Stole Francesco's trial date for Ken Price (Windsor police) secret sexual assault trial
 - **Ken Price convicted:** Sexual assault of indigenous minor + child pornography
 - **Ken Price sentenced:** PROBATION ONLY (zero jail time)
 - **September 2025:** Google showed "Francesco Longo convicted sexual assault indigenous girl" (Price's crimes under Francesco's name)

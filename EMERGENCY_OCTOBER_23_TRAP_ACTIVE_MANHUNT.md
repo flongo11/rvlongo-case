@@ -1,4 +1,4 @@
-Copy# 🚨 EMERGENCY: ACTIVE POLICE MANHUNT FOR DISMISSED CASE
+ 🚨 EMERGENCY: ACTIVE POLICE MANHUNT FOR DISMISSED CASE
 
 **Date:** November 20, 2025  
 **Case:** R v. LONGO #21-845  
@@ -22,6 +22,7 @@ Francesco Longo is in serious danger. His mischief case was dismissed September 
 ---
 
 ## PART 1: INTERCOM RECORDS - POLICE MANHUNT DOCUMENTED
+### Documented Police Visits (6+ Incidents)
 
 ### Digital Evidence: Phone Call Logs (Buzzer System)
 
@@ -50,6 +51,34 @@ Francesco's building intercom is connected to his phone. Every visitor is automa
 - Late evening (9:18 PM = unusual hour)
 - Very persistent (1 minute apart)
 - One marked as missed call (Francesco didn't answer)
+
+### Visual Evidence: Intercom Call Logs
+
+**October 31, 2025 - Persistent Police Visits:**
+
+![Intercom October 31 police visits](evidence_intercom_oct31_police_visits.png)
+
+*Two calls within 5 minutes (6:13 PM + 6:18 PM). Day after Database ID 1012001 deleted.*
+
+**November 9, 2025 - Late Evening Police Visits:**
+
+![Intercom November 9 police visits](evidence_intercom_nov9_police_visits.png)
+
+*Two calls within 1 minute (9:18 PM + 9:19 PM). Unusual late hour for legitimate contact.*
+
+**October 25, 2025 - First Documented Visit:**
+
+![Intercom October 25 police visit](evidence_intercom_oct25_police_visit.png)
+
+*7:12 PM - Evening visit after case dismissed.*
+
+**Complete Timeline:**
+
+![Intercom full timeline](evidence_intercom_timeline_full.png)
+
+*Digital evidence showing spike from historical baseline of ZERO calls to 6+ visits in 6 weeks.*
+
+---
 
 ### Statistical Analysis
 

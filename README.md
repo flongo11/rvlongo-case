@@ -1,3 +1,61 @@
+# 🚨 URGENT: I NEED HELP - STUCK AT $0
+
+## 33,000 Reddit Views Yesterday → 0 Replies Today → I'm Trapped
+
+**My devices are HACKED. I'm BROKE. I can't work. I can't fundraise normally.**
+
+**All platforms are blocking me. I need $5,000 to escape.**
+
+---
+
+## 💰 HOW TO HELP ME RIGHT NOW:
+
+### 🇨🇦 Canada: E-Transfer
+**flongo11@gmail.com** (instant)
+
+### 🌍 International: Bitcoin
+**37KmsifG3gSL2r6PaTobn2Gjn7dMZDg4iN**
+
+**Check donations (100% transparent):**  
+https://blockchair.com/bitcoin/address/37KmsifG3gSL2r6PaTobn2Gjn7dMZDg4iN
+
+---
+
+## 💵 WHAT I NEED: $5,000
+
+- New phone (hacked): $500
+- New laptop (hacked): $1,200
+- Security: $500
+- Lawyer: $1,500
+- Living: $1,300
+
+## 🔥 I WILL PAY YOU BACK 5X
+
+**You help me now: $100 → I pay you back: $500**  
+**You help me now: $1,000 → I pay you back: $5,000**
+
+I keep records. I will find you. You will be paid back.
+
+---
+
+## 📊 PROOF OF SUPPRESSION:
+
+- **Yesterday:** Reddit post got 33,000 views
+- **Today:** 0 upvotes, 0 comments, 0 replies, post deleted
+- **GoFundMe:** $0 from 1,760+ clicks
+- **Total exposure:** 34,760+ views → $0 received
+
+**Reddit is auto-blocking my posts:** [PROOF](REDDIT_AUTO_BLOCKING_PROOF.md)
+
+**This is coordinated platform suppression.**
+
+---
+
+## ⬇️ FULL EVIDENCE BELOW ⬇️
+
+---
+
+---
 # 🚨 EMERGENCY: IDENTITY SWAP FOR PRISON MURDER-BY-PROXY
 
 **Francesco Longo's case DISMISSED September 15, 2025**  

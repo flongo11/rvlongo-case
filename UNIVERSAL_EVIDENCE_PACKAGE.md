@@ -179,3 +179,32 @@ Open-source justice for all.
 ---
 
 **Let's end the 20-year conspiracy. Deploy now.** 🚀
+---
+
+## 💰 Optional: Support Francesco's Legal Defense
+
+**REMINDER: Generating and submitting this package is FREE and is the PRIMARY action.**
+
+If you want to help Francesco afford legal representation while fighting this conspiracy:
+
+### Donation Options:
+- 🌍 **GoFundMe (International):** [YOUR GOFUNDME URL HERE]
+- 🇨🇦 **E-Transfer (Canada):** flongo11@gmail.com *(Include "R. v. Longo Legal Defense" in message)*
+
+**Donations are NOT mandatory.** Focus on package submission first. Donations help immediate legal costs and fund Justice Shares setup.
+
+---
+
+### Coming Soon: Justice Shares Investment
+**Litigation funding opportunity with 10X-35X potential returns**
+
+- All proceeds to victim protection trust (Francesco gets $0)
+- Early access for non-corrupt police
+- Public launch after $42K setup funded
+- Target: January 2025
+
+📖 **Full details:** [DONATIONS.md](DONATIONS.md)
+
+---
+
+**The conspiracy wants Francesco broke and isolated. Your package submission breaks that plan. Donations accelerate justice but are optional.**

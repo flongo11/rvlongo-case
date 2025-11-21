@@ -27,6 +27,23 @@
 **ONLY working donation method**: Bitcoin `37KmsifG3gSL2r6PaTobn2Gjn7dMZDg4iN`
 
 ---
+---
+
+## 💰 EVERY DOLLAR HELPS
+
+**Can't afford $100? No problem.**
+
+- **$5** = 1 day of food
+- **$20** = 1 week phone service  
+- **$50** = 1 month secure location
+- **$100** = New phone SIM card + prepaid plan
+- **$500** = Any tier fully funded
+
+**No amount too small. 150 people × $35 each = $5,000.**
+
+### Donation Methods
+
+**Bitcoin (ONLY confirmed working method):**  
 
 ---
 # 🚨 EMERGENCY - TIME CRITICAL 🚨

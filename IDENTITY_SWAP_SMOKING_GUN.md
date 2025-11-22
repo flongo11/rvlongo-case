@@ -1,17 +1,22 @@
-# SMOKING GUN: Section 530 Document Proves Identity Swap
+## IMAGES
 
-## DATE: July 10, 2025
+### Court Receipt - July 09, 2025 (My Name)
+![OCT23 FRONT](OCT23%20FRONT.jpg)
 
-## THE PROOF
+### Section 530 - Language of the Accused (Indigenous Victim Cases)
+![OCT23 BACK](OCT23%20BACK.jpg)
 
-I have two documents:
+### Combined View
+![OCT23 FRONT-BACK](OCT23%20FRONT%20-BACK.jpg)
 
-1. **LEFT IMAGE:** Court receipt with my name "Francesco Longo" - July 10, 2025
-2. **RIGHT IMAGE:** Criminal Code Section 530 - "Language of the Accused"
+**Physical evidence proving identity swap:**
+- Left: Court receipt with "Francesco Longo" dated July 10, 2025
+- Right: Section 530 document (ONLY used for indigenous victim cases)
+- My case: Mischief over $5,000 (would NEVER need Section 530)
+- Ken Price's case: Sexual assault indigenous minor (WOULD need Section 530)
 
-## WHY THIS IS PROOF OF IDENTITY SWAP
+**This proves his case paperwork has my name on it.**
 
-**Section 530 is ONLY used for:**
 - Cases in Nunavut/territories
 - Cases with indigenous victims
 - Sexual assault cases involving indigenous people

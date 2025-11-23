@@ -1,0 +1,53 @@
+name: Evidence Inventory Generator
+
+on:
+  push:
+    paths:
+      - 'evidence/**'
+  workflow_dispatch:
+
+jobs:
+  generate-inventory:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Generate Evidence Inventory
+        run: |
+          echo "# EVIDENCE INVENTORY - Generated $(date)" > EVIDENCE_INVENTORY.md
+          echo "" >> EVIDENCE_INVENTORY.md
+          echo "## File Count by Category" >> EVIDENCE_INVENTORY.md
+          echo "" >> EVIDENCE_INVENTORY.md
+          
+          for dir in evidence/*/; do
+            category=$(basename "$dir")
+            count=$(find "$dir" -type f | wc -l)
+            size=$(du -sh "$dir" | cut -f1)
+            echo "- **$category**: $count files ($size)" >> EVIDENCE_INVENTORY.md
+          done
+          
+          echo "" >> EVIDENCE_INVENTORY.md
+          echo "## Detailed File List" >> EVIDENCE_INVENTORY.md
+          echo "" >> EVIDENCE_INVENTORY.md
+          
+          for dir in evidence/*/; do
+            category=$(basename "$dir")
+            echo "### $category" >> EVIDENCE_INVENTORY.md
+            echo "" >> EVIDENCE_INVENTORY.md
+            find "$dir" -type f -exec ls -lh {} \; | awk '{print "- " $9 " (" $5 ")"}' >> EVIDENCE_INVENTORY.md
+            echo "" >> EVIDENCE_INVENTORY.md
+          done
+          
+          echo "" >> EVIDENCE_INVENTORY.md
+          echo "---" >> EVIDENCE_INVENTORY.md
+          echo "*Last updated: $(date)*" >> EVIDENCE_INVENTORY.md
+      
+      - name: Commit inventory
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add EVIDENCE_INVENTORY.md
+          git commit -m "Auto-update evidence inventory" || echo "No changes"
+          git push

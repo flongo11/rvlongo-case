@@ -1,3 +1,8 @@
+      - name: Create README
+        run: |
+          cat > extracted_text/README.md << 'EOFMARKER'
+# EXTRACTED TEXT FILES FOR GROK ANALYSIS
+...
 name: HTML to Text Extractor
 
 on:

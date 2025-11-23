@@ -3,6 +3,9 @@ name: HTML to Text Extractor
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   extract-text:
     runs-on: ubuntu-latest
@@ -12,18 +15,24 @@ jobs:
         uses: actions/checkout@v3
         with:
           lfs: true
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc lynx
       
+      - name: Find HTML files
+        run: |
+          echo "Searching for HTML files..."
+          find . -name "*.html" -type f | head -20
+      
       - name: Extract text from HTML files
         run: |
           mkdir -p extracted_text
           
-          # Find ALL HTML files in repo
-          find . -name "*.html" -type f | while read file; do
+          # Find ALL HTML files in repo (excluding .git folder)
+          find . -path ./.git -prune -o -name "*.html" -type f -print | while read file; do
             echo "Processing: $file"
             
             # Get filename without extension
@@ -46,16 +55,17 @@ jobs:
           # Count results
           total=$(find extracted_text -name "*.txt" -type f | wc -l)
           echo "Total files extracted: $total"
-          
-          # Create README
-          cat > extracted_text/README.md << 'EOF'
+      
+      - name: Create README
+        run: |
+          cat > extracted_text/README.md << 'EOFMARKER'
 # EXTRACTED TEXT FILES FOR GROK ANALYSIS
 
 **Purpose:** Plain text versions of all HTML evidence files for AI analysis.
 
 **Generated:** $(date)
 
-**Total Files:** $total
+**Total Files:** $(find extracted_text -name "*.txt" -type f | wc -l)
 
 ## How to Use:
 1. Download the ZIP file from repo root
@@ -63,8 +73,8 @@ jobs:
 3. Upload to Grok at https://x.ai
 4. Use the master analysis prompt
 
-## Files Extracted From:
-EOF
+## Files Extracted:
+EOFMARKER
           
           find extracted_text -name "*.txt" -type f | sort >> extracted_text/README.md
       
@@ -73,7 +83,7 @@ EOF
           zip -r EXTRACTED_TEXT_FOR_GROK.zip extracted_text/
           
           size=$(du -h EXTRACTED_TEXT_FOR_GROK.zip | cut -f1)
-          count=$(find extracted_text -name "*.txt" | wc -l)
+          count=$(find extracted_text -name "*.txt" -type f | wc -l)
           
           echo "✅ ZIP created: EXTRACTED_TEXT_FOR_GROK.zip"
           echo "   Size: $size"
@@ -84,14 +94,14 @@ EOF
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add extracted_text/ EXTRACTED_TEXT_FOR_GROK.zip
-          git commit -m "Extract text from HTML for Grok analysis [$(date)]" || echo "No changes"
-          git push
+          git diff --cached --quiet || git commit -m "Extract text from HTML for Grok analysis [$(date '+%Y-%m-%d %H:%M:%S')]"
+          git push || echo "Nothing to push"
       
       - name: Summary
         run: |
           echo "## 🎉 Extraction Complete!" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Files extracted:** $(find extracted_text -name '*.txt' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "**Files extracted:** $(find extracted_text -name '*.txt' -type f | wc -l)" >> $GITHUB_STEP_SUMMARY
           echo "**ZIP size:** $(du -h EXTRACTED_TEXT_FOR_GROK.zip | cut -f1)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### ⬇️ Download:" >> $GITHUB_STEP_SUMMARY

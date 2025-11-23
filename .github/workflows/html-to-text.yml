@@ -1,8 +1,3 @@
-      - name: Create README
-        run: |
-          cat > extracted_text/README.md << 'EOFMARKER'
-# EXTRACTED TEXT FILES FOR GROK ANALYSIS
-...
 name: HTML to Text Extractor
 
 on:
@@ -36,18 +31,14 @@ jobs:
         run: |
           mkdir -p extracted_text
           
-          # Find ALL HTML files in repo (excluding .git folder)
           find . -path ./.git -prune -o -name "*.html" -type f -print | while read file; do
             echo "Processing: $file"
             
-            # Get filename without extension
             base=$(basename "$file" .html)
             dir=$(dirname "$file" | sed 's|^\./||')
             
-            # Create output directory structure
             mkdir -p "extracted_text/$dir"
             
-            # Try pandoc first, fall back to lynx
             if pandoc "$file" -t plain -o "extracted_text/${dir}/${base}.txt" 2>/dev/null; then
               echo "✓ Extracted with pandoc: $file"
             elif lynx -dump -nolist "$file" > "extracted_text/${dir}/${base}.txt" 2>/dev/null; then
@@ -57,30 +48,25 @@ jobs:
             fi
           done
           
-          # Count results
           total=$(find extracted_text -name "*.txt" -type f | wc -l)
           echo "Total files extracted: $total"
       
       - name: Create README
         run: |
-          cat > extracted_text/README.md << 'EOFMARKER'
-# EXTRACTED TEXT FILES FOR GROK ANALYSIS
-
-**Purpose:** Plain text versions of all HTML evidence files for AI analysis.
-
-**Generated:** $(date)
-
-**Total Files:** $(find extracted_text -name "*.txt" -type f | wc -l)
-
-## How to Use:
-1. Download the ZIP file from repo root
-2. Extract all .txt files
-3. Upload to Grok at https://x.ai
-4. Use the master analysis prompt
-
-## Files Extracted:
-EOFMARKER
-          
+          echo "# EXTRACTED TEXT FILES FOR GROK ANALYSIS" > extracted_text/README.md
+          echo "" >> extracted_text/README.md
+          echo "**Purpose:** Plain text versions of all HTML evidence files for AI analysis." >> extracted_text/README.md
+          echo "" >> extracted_text/README.md
+          echo "**Generated:** $(date)" >> extracted_text/README.md
+          echo "" >> extracted_text/README.md
+          echo "**Total Files:** $(find extracted_text -name '*.txt' -type f | wc -l)" >> extracted_text/README.md
+          echo "" >> extracted_text/README.md
+          echo "## How to Use:" >> extracted_text/README.md
+          echo "1. Download EXTRACTED_TEXT_FOR_GROK.zip from repo root" >> extracted_text/README.md
+          echo "2. Extract all .txt files" >> extracted_text/README.md
+          echo "3. Upload to Grok at https://x.ai" >> extracted_text/README.md
+          echo "" >> extracted_text/README.md
+          echo "## Files Extracted:" >> extracted_text/README.md
           find extracted_text -name "*.txt" -type f | sort >> extracted_text/README.md
       
       - name: Create downloadable ZIP
@@ -99,7 +85,7 @@ EOFMARKER
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add extracted_text/ EXTRACTED_TEXT_FOR_GROK.zip
-          git diff --cached --quiet || git commit -m "Extract text from HTML for Grok analysis [$(date '+%Y-%m-%d %H:%M:%S')]"
+          git diff --cached --quiet || git commit -m "Extract text from HTML for Grok analysis"
           git push || echo "Nothing to push"
       
       - name: Summary
@@ -109,5 +95,4 @@ EOFMARKER
           echo "**Files extracted:** $(find extracted_text -name '*.txt' -type f | wc -l)" >> $GITHUB_STEP_SUMMARY
           echo "**ZIP size:** $(du -h EXTRACTED_TEXT_FOR_GROK.zip | cut -f1)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### ⬇️ Download:" >> $GITHUB_STEP_SUMMARY
-          echo "Go to [repo root](https://github.com/${{ github.repository }}) and download \`EXTRACTED_TEXT_FOR_GROK.zip\`" >> $GITHUB_STEP_SUMMARY
+          echo "Download EXTRACTED_TEXT_FOR_GROK.zip from repo root" >> $GITHUB_STEP_SUMMARY

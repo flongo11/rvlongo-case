@@ -53,21 +53,23 @@ jobs:
       
       - name: Create README
         run: |
-          echo "# EXTRACTED TEXT FILES FOR GROK ANALYSIS" > extracted_text/README.md
-          echo "" >> extracted_text/README.md
-          echo "**Purpose:** Plain text versions of all HTML evidence files for AI analysis." >> extracted_text/README.md
-          echo "" >> extracted_text/README.md
-          echo "**Generated:** $(date)" >> extracted_text/README.md
-          echo "" >> extracted_text/README.md
-          echo "**Total Files:** $(find extracted_text -name '*.txt' -type f | wc -l)" >> extracted_text/README.md
-          echo "" >> extracted_text/README.md
-          echo "## How to Use:" >> extracted_text/README.md
-          echo "1. Download EXTRACTED_TEXT_FOR_GROK.zip from repo root" >> extracted_text/README.md
-          echo "2. Extract all .txt files" >> extracted_text/README.md
-          echo "3. Upload to Grok at https://x.ai" >> extracted_text/README.md
-          echo "" >> extracted_text/README.md
-          echo "## Files Extracted:" >> extracted_text/README.md
-          find extracted_text -name "*.txt" -type f | sort >> extracted_text/README.md
+          {
+            echo "# EXTRACTED TEXT FILES FOR GROK ANALYSIS"
+            echo ""
+            echo "**Purpose:** Plain text versions of all HTML evidence files for AI analysis."
+            echo ""
+            echo "**Generated:** $(date)"
+            echo ""
+            echo "**Total Files:** $(find extracted_text -name '*.txt' -type f | wc -l)"
+            echo ""
+            echo "## How to Use:"
+            echo "1. Download EXTRACTED_TEXT_FOR_GROK.zip from repo root"
+            echo "2. Extract all .txt files"
+            echo "3. Upload to Grok at https://x.ai"
+            echo ""
+            echo "## Files Extracted:"
+            find extracted_text -name "*.txt" -type f | sort
+          } > extracted_text/README.md
       
       - name: Create downloadable ZIP
         run: |
